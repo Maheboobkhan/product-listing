@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
-
-
-
-
-
-
-
-
 .overflow-y-auto {
   display: -webkit-box;
   -webkit-box-orient: vertical;
