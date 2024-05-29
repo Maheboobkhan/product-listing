@@ -44,7 +44,7 @@ const Home = () => {
                 <h2 className="text-lg font-bold mb-8 text-center" style={{ color: '#e27daa' }}>{product.title}</h2>
                 <p className="text-[#4a4a4a] text-lg font-bold absolute bottom-2">${product.price}</p>
               </div>
-              <button className='bg-[#e27daa] text-white p-2 rounded-md hover:bg-gray-100 hover:text-[#e27daa] absolute right-2 bottom-2 cursor-pointer'>Add to Cart</button>
+              <button className='bg-[#e27daa] text-white p-2 rounded-md hover:bg-gray-100 hover:text-[#e27daa] absolute right-2 bottom-2 cursor-pointer' onClick={(e) => {e.stopPropagation();}}>Add to Cart</button>
             </div>
           ))}
         </div>
